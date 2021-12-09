@@ -1,4 +1,3 @@
-# Assembly-Exercises
 .data
 str: .space 100
 numnum: .space 100 
@@ -78,7 +77,6 @@ sw $t3, 8($a0)
 li $v0, 4 
 la $a0, str 
 syscall 
-
 
 
 li $v0, 10 
